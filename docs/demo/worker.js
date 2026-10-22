@@ -1,5 +1,5 @@
 /* Project-local offline shell. No third-party requests, audio, identity or tracking. */
-const CACHE='open-atlas-0.1';const FILES=['./','index.html','atlas.css','atlas.js','icon.svg','data.json','equirectangular.svg','equal-area.svg','manifest.webmanifest','observations.csv','geometry.geojson','build-manifest.json'];
+const CACHE='open-atlas-0.1';const FILES=['./','index.html','atlas.css','atlas.js','icon.svg','icon-192.png','icon-512.png','data.json','equirectangular.svg','equal-area.svg','manifest.webmanifest','observations.csv','geometry.geojson','build-manifest.json'];
 const key=CACHE+':'+self.registration.scope;
 self.addEventListener('install',e=>{e.waitUntil(caches.open(key).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(self.clients.claim())});

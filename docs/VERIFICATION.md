@@ -13,6 +13,9 @@ CSV formula defense, projection coordinates, exact-year selection, all importers
 the actual event example, templates, input/export parity, build hashes, PDF
 generation and outlines. The first release has 37 passing tests.
 
+The checks also passed against the public GitHub Pages deployment. GitHub's
+validation/build workflow passed on Python 3.10 and 3.12.
+
 The optional `scripts/browser_qa.cjs` uses Playwright; it is not a runtime
 dependency. Set `PLAYWRIGHT_MODULE` to the module path if not installed locally,
 `BROWSER_EXECUTABLE` to a Chromium-family executable if needed, and `ATLAS_BASE`

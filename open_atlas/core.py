@@ -263,7 +263,9 @@ def csv_export(bundle, path):
         "source_record",
     ]
     with Path(path).open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(
+            f, fieldnames=fields, extrasaction="ignore", lineterminator="\n"
+        )
         writer.writeheader()
         for o in bundle["observations"]:
             row = {k: o.get(k, "") for k in fields}
