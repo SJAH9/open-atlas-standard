@@ -1,0 +1,26 @@
+{
+  "standard_version": "0.1.0",
+  "id": "independent-atlas",
+  "title": "Independent Atlas",
+  "description": "An open atlas in development. No findings have been entered yet.",
+  "owner": "Your name",
+  "license": "Specify the license for your original work; upstream data rights remain separate.",
+  "geometry_source": "natural-earth-110m-geometry",
+  "scope": "Replace with your geography, audience and temporal boundary.",
+  "method": "Define each indicator and source before importing observations. Missingness is not a score.",
+  "extensions": {
+    "governance": {
+      "kind": "individual",
+      "review": "Maintainer review with dated corrections",
+      "privacy": "Do not include personal or confidential observations in this public package."
+    }
+  },
+  "files": {
+    "entities": "data/entities.json",
+    "metrics": "data/metrics.json",
+    "observations": "data/observations.json",
+    "sources": "data/sources.json",
+    "relations": "data/relations.json",
+    "geometry": "data/geometry.geojson"
+  }
+}

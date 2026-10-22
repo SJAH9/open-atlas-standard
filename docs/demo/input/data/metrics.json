@@ -1,0 +1,50 @@
+[
+  {
+    "id": "population",
+    "title": "Population",
+    "unit": "people",
+    "description": "World Bank / UN total population. Select an actual observed year; absent records stay missing.",
+    "domain": [
+      0,
+      1500000000
+    ],
+    "aggregation": "none",
+    "direction": "neutral"
+  },
+  {
+    "id": "rtlp",
+    "title": "Right-to-Life Protection",
+    "unit": "index (0–1)",
+    "description": "Published RTLDI nine-condition score. Model-vintage and baseline notes are attached to each record.",
+    "domain": [
+      0,
+      1
+    ],
+    "aggregation": "none",
+    "direction": "higher"
+  },
+  {
+    "id": "capital-exclusions",
+    "title": "Annual capital exclusions",
+    "unit": "USD / year (model estimate)",
+    "description": "Copied from the published RTLDI model; no equation or regression recalculated. The original source years and qualifications remain attached.",
+    "domain": [
+      0,
+      5000000000000
+    ],
+    "aggregation": "none",
+    "direction": "neutral"
+  },
+  {
+    "id": "life-support",
+    "title": "Life-support resilience",
+    "unit": "composite (0–1)",
+    "description": "No composite is available without accepted evidence in all nine domains. The initial founding project has no accepted observations.",
+    "domain": [
+      0,
+      1
+    ],
+    "aggregation": "none",
+    "direction": "higher"
+  }
+]

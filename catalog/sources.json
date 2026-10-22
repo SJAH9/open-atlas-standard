@@ -1,0 +1,1038 @@
+{
+  "standard_version": "0.1.0",
+  "description": "Source adapters and attribution records, not a grant of upstream redistribution rights. Used/candidate status is retained per founding project.",
+  "foundations": [
+    {
+      "repository": "https://github.com/SJAH9/war-maps-project",
+      "commit": "976d92a510c3c73f9de76c5997c0c1c89d188ef4",
+      "readme_sha256": "922165b6f7008c156a8642d2516a32663b8f788c181f4146fd8b41c943b50731",
+      "license": "MIT for project software; upstream data retain separate terms"
+    },
+    {
+      "repository": "https://github.com/SJAH9/rtldi-atlas",
+      "commit": "c338deb69543056459ff5a783e33e4cef182d955",
+      "readme_sha256": "621c8d8179673846d57aa903e2db9dddaf662788f2f44fa327001af734ebd485",
+      "license": "MIT for project software; upstream data retain separate terms"
+    },
+    {
+      "repository": "https://github.com/SJAH9/global-life-support-atlas",
+      "commit": "8adbbd06b902e6b0da0bf93ee1f0d9c7e5b0b39d",
+      "readme_sha256": "de7c8de31bdde66ab5368d4548cf1933d52bab65ef626fdde70aed74b0023914",
+      "license": "MIT for project software; upstream data retain separate terms"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ucdp-prio-acd-26.1",
+      "title": "UCDP/PRIO Armed Conflict Dataset version 26.1",
+      "publisher": "Uppsala Conflict Data Program",
+      "coverage": "1946-2025 state-based armed conflict, conflict-year",
+      "url": "https://ucdp.uu.se/downloads/ucdpprio/ucdp-prio-acd-261-csv.zip",
+      "license": "CC BY 4.0",
+      "enclosure": "reviewed-academic-conflict-dataset",
+      "retrieved": "2026-08-28",
+      "sha256": "2aea044f1bcae7b050bb6c79fb796743e787edeed3b90e74e146cfc4e5b05447",
+      "refresh_status": "Official download unchanged; see dated refresh audit",
+      "access": "download",
+      "status": "used",
+      "usage_note": "reviewed-academic-conflict-dataset",
+      "upstream_verified": "2026-10-19",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "war-maps",
+      "download_policy": "manual-review",
+      "download_url": "https://ucdp.uu.se/downloads/ucdpprio/ucdp-prio-acd-261-csv.zip"
+    },
+    {
+      "id": "ucdp-ged-26.1",
+      "title": "UCDP Georeferenced Event Dataset version 26.1",
+      "publisher": "Uppsala Conflict Data Program",
+      "coverage": "1989-2025 event observations; civilian-death field used by the Human cost view",
+      "url": "https://ucdp.uu.se/downloads/ged/ged261-csv.zip",
+      "license": "CC BY 4.0",
+      "enclosure": "reviewed-academic-georeferenced-event-dataset",
+      "retrieved": "2026-09-21",
+      "sha256": "8c941d84954e555ee2e54f40fa04d9203bf1e2f962203d0a9930966c4947c667",
+      "refresh_status": "Official download unchanged; see dated refresh audit",
+      "access": "download",
+      "status": "used",
+      "usage_note": "reviewed-academic-georeferenced-event-dataset",
+      "upstream_verified": "2026-10-19",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "war-maps",
+      "download_policy": "manual-review",
+      "download_url": "https://ucdp.uu.se/downloads/ged/ged261-csv.zip"
+    },
+    {
+      "id": "ucdp-candidate-ged-2026-06",
+      "title": "UCDP Candidate Events Dataset, January-June 2026",
+      "publisher": "Uppsala Conflict Data Program",
+      "coverage": "Provisional event observations through June 2026",
+      "url": "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_01_26_06.csv",
+      "license": "CC BY 4.0",
+      "enclosure": "candidate-academic-event-dataset",
+      "retrieved": "2026-09-09",
+      "sha256": "68dd3d363b8edf4808bd6bf6f5d0412c3c722ffb1db367aeb8eff48bab80589a",
+      "refresh_status": "Official download unchanged; see dated refresh audit",
+      "access": "download",
+      "status": "used",
+      "usage_note": "candidate-academic-event-dataset",
+      "upstream_verified": "2026-10-19",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "war-maps",
+      "download_policy": "manual-review",
+      "download_url": "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_01_26_06.csv"
+    },
+    {
+      "id": "ucdp-candidate-ged-2026-07",
+      "title": "UCDP Candidate Events Dataset, July 2026",
+      "publisher": "Uppsala Conflict Data Program",
+      "coverage": "Provisional global event observations for July 2026, reconciled over the January-June release by event ID",
+      "url": "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_0_7.csv",
+      "license": "CC BY 4.0",
+      "enclosure": "candidate-academic-event-dataset",
+      "retrieved": "2026-09-09",
+      "sha256": "9fc2c6dd85eee91845512e8ef1055281d9fd028fb98748a6f2a27c6e8aa8c562",
+      "refresh_status": "Official download unchanged; see dated refresh audit",
+      "access": "download",
+      "status": "used",
+      "usage_note": "candidate-academic-event-dataset",
+      "upstream_verified": "2026-10-19",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "war-maps",
+      "download_policy": "manual-review",
+      "download_url": "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_0_7.csv"
+    },
+    {
+      "id": "ucdp-candidate-ged-2026-08",
+      "title": "UCDP Candidate Events Dataset, August 2026",
+      "publisher": "Uppsala Conflict Data Program",
+      "coverage": "Provisional global event observations for August 2026, reconciled over the January-July releases by event ID",
+      "url": "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_0_8.csv",
+      "license": "CC BY 4.0",
+      "enclosure": "candidate-academic-event-dataset",
+      "retrieved": "2026-09-20",
+      "sha256": "2ad6e0b2bfdbaa31873716a3455096923a8539519d69d96aeeea2d0f44a34593",
+      "refresh_status": "Official download unchanged; see dated refresh audit",
+      "access": "download",
+      "status": "used",
+      "usage_note": "candidate-academic-event-dataset",
+      "upstream_verified": "2026-10-19",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "war-maps",
+      "download_policy": "manual-review",
+      "download_url": "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_0_8.csv"
+    },
+    {
+      "id": "vdem-core-v16",
+      "title": "V-Dem Country-Year v16, War Maps retained fields",
+      "publisher": "V-Dem Institute",
+      "coverage": "Country-year protection conditions through 2025",
+      "url": "https://github.com/vdeminstitute/vdemdata/releases/tag/V16",
+      "license": "CC BY-SA 4.0",
+      "enclosure": "country-year state-condition dataset",
+      "retrieved": "2026-09-21",
+      "sha256": "c3ebb286b5eac4cdbfdc5c51b67e9d8d7248dc4729d7b52debec35d989befa4c",
+      "refresh_status": "Official release page still lists v16 as latest; retained extracts, no fresh full-archive comparison",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "country-year state-condition dataset",
+      "upstream_verified": "2026-10-08",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "vdem-regimes-of-the-world-v16",
+      "title": "V-Dem Country-Year v16, Regimes of the World",
+      "publisher": "V-Dem Institute",
+      "coverage": "Country-year v2x_regime and v2x_regime_amb classifications through 2025",
+      "url": "https://github.com/vdeminstitute/vdemdata/releases/tag/V16",
+      "license": "CC BY-SA 4.0",
+      "enclosure": "country-year regime classification",
+      "retrieved": "2026-09-21",
+      "sha256": "765d5dfed77f7f328fb887f7e23eebe0cc7f8c0221c846e94d0371c1473cf764",
+      "refresh_status": "Official release page still lists v16 as latest; retained extracts, no fresh full-archive comparison",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "country-year regime classification",
+      "upstream_verified": "2026-10-08",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "natural-earth-110m-geometry",
+      "title": "Natural Earth Admin 0 Countries, 1:110m",
+      "publisher": "Natural Earth",
+      "coverage": "Cartographic geometry only; never used as conflict evidence",
+      "url": "https://www.naturalearthdata.com/",
+      "license": "Public domain",
+      "enclosure": "map geometry",
+      "retrieved": "2026-08-28",
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+      "refresh_status": "Verified unchanged",
+      "access": "download",
+      "status": "used",
+      "usage_note": "map geometry",
+      "upstream_verified": "2026-09-21",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "geojson",
+      "download_policy": "redistributable",
+      "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    {
+      "id": "ihme-gbd-2023-all-cause-mortality",
+      "title": "Global Burden of Disease Study 2023 Results, all-cause mortality",
+      "publisher": "Institute for Health Metrics and Evaluation",
+      "coverage": "1980-2023 age-standardized all-cause death rates, both sexes",
+      "url": "https://vizhub.healthdata.org/gbd-results/",
+      "license": "IHME GBD Results terms",
+      "enclosure": "modeled country-year population health rate; not a conflict fatality count",
+      "retrieved": "2026-08-30",
+      "refresh_status": "GBD 2023 remains the loaded release; source export requires IHME access",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "modeled country-year population health rate; not a conflict fatality count",
+      "upstream_verified": "2026-09-21",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "owid-long-run-life-expectancy-2026-09-19",
+      "title": "Life expectancy – long-run data",
+      "publisher": "Our World in Data",
+      "coverage": "Country observations from 1543-2023; post-1950 estimates use UN World Population Prospects 2024",
+      "url": "https://ourworldindata.org/grapher/life-expectancy",
+      "license": "CC BY 4.0 for the compiled data; upstream-source terms apply",
+      "enclosure": "period life expectancy at birth; exact source observations only, never extrapolated",
+      "citation": "Riley (2005); Zijdeman et al. (2015); HMD (2025); UN WPP (2024), with major processing by Our World in Data",
+      "peer_reviewed_source": "https://doi.org/10.1111/j.1728-4457.2005.00083.x",
+      "retrieved": "2026-09-19",
+      "refresh_status": "Official download unchanged; see dated refresh audit",
+      "sha256": "c304603fb8a7da263619a8ae43b7097f35b648c458855e23f1c4ef8f2ae75c01",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "period life expectancy at birth; exact source observations only, never extrapolated",
+      "upstream_verified": "2026-10-19",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "ihme-gbd-2023-derived-total-fertility",
+      "title": "Global Burden of Disease Study 2023 Results, age-specific fertility rates",
+      "publisher": "Institute for Health Metrics and Evaluation",
+      "coverage": "1980-2023 female age-specific fertility rates, integrated across ages 10-49",
+      "url": "https://vizhub.healthdata.org/gbd-results/",
+      "license": "IHME GBD Results terms",
+      "enclosure": "derived period total fertility rate; not a birth count",
+      "retrieved": "2026-08-30",
+      "refresh_status": "GBD 2023 remains the loaded release; source export requires IHME access",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "derived period total fertility rate; not a birth count",
+      "upstream_verified": "2026-09-21",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "world-bank-wdi-crude-birth-rate",
+      "title": "World Development Indicators: Birth rate, crude (per 1,000 people)",
+      "publisher": "World Bank",
+      "coverage": "1960-2024 country-year observations distributed through WDI; primarily sourced from UN World Population Prospects",
+      "url": "https://data.worldbank.org/indicator/SP.DYN.CBRT.IN",
+      "license": "CC BY 4.0",
+      "enclosure": "annual demographic rate; distinct from total fertility rate and from a birth count",
+      "retrieved": "2026-10-08",
+      "sha256": "925bb606867f5ac01c15feb3f40bd3f758831eec3a3720c14a01c3b4ceb27571",
+      "refresh_status": "Official download unchanged; see dated refresh audit",
+      "access": "api",
+      "status": "used",
+      "usage_note": "annual demographic rate; distinct from total fertility rate and from a birth count",
+      "upstream_verified": "2026-10-19",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "world-bank",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "world-bank-wdi-total-population",
+      "title": "World Development Indicators: Population, total",
+      "publisher": "World Bank",
+      "coverage": "1960-2025 country-year observations distributed through WDI; primarily sourced from UN World Population Prospects",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "license": "CC BY 4.0",
+      "enclosure": "de facto mid-year population estimate; not a conflict exposure or casualty measure",
+      "retrieved": "2026-10-19",
+      "sha256": "afebdcf7ed2ac0b36bfad60902747de65736fe5a3433820efba97af4d00f388d",
+      "refresh_status": "Official download updated; see dated refresh audit",
+      "access": "api",
+      "status": "used",
+      "usage_note": "de facto mid-year population estimate; not a conflict exposure or casualty measure",
+      "upstream_verified": "2026-10-19",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "world-bank",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "celestrak-iceye-sar-2026-10-19",
+      "title": "CelesTrak public GP orbital elements, ICEYE SAR subset",
+      "publisher": "CelesTrak",
+      "coverage": "Frozen 2026-10-19 orbital-element snapshot for 52 active publicly catalogued ICEYE objects",
+      "url": "https://celestrak.org/NORAD/documentation/gp-data-formats.php",
+      "license": "Public orbital data; CelesTrak usage and attribution terms apply",
+      "enclosure": "public orbit geometry; not evidence of conflict participation",
+      "retrieved": "2026-10-19",
+      "download_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=sar&FORMAT=JSON",
+      "sha256": "57bd970e54d5753a99ee6639fd53e640e63e6d1cbdb424a7de9d00a3fb824e0c",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "public orbit geometry; not evidence of conflict participation",
+      "upstream_verified": "2026-10-19",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "iceye-ukraine-support-2026",
+      "title": "Ukraine expands partnership with ICEYE",
+      "publisher": "ICEYE",
+      "coverage": "Operator statement documenting constellation-level SAR imagery support to Ukraine's Ministry of Defence",
+      "url": "https://www.iceye.com/newsroom/press-releases/ukraine-expands-partnership-with-iceye",
+      "license": "Source statement; linked for attribution",
+      "enclosure": "documented constellation relation; not individual satellite attribution",
+      "retrieved": "2026-08-29",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "documented constellation relation; not individual satellite attribution",
+      "upstream_verified": "2026-09-21",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "un-member-states-2026",
+      "title": "United Nations Member States",
+      "publisher": "United Nations",
+      "coverage": "Current member-state roster and admission dates",
+      "url": "https://www.un.org/about-us/member-states",
+      "license": "United Nations attribution and use terms",
+      "enclosure": "organization membership roster",
+      "retrieved": "2026-09-21",
+      "refresh_status": "Verified against the official 193-member roster",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "organization membership roster",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "nato-member-countries",
+      "title": "NATO member countries",
+      "publisher": "North Atlantic Treaty Organization",
+      "coverage": "NATO member countries and accession years",
+      "url": "https://www.nato.int/cps/en/natohq/nato_countries.htm",
+      "license": "NATO website terms",
+      "enclosure": "organization membership roster",
+      "retrieved": "2026-09-21",
+      "refresh_status": "Verified at 32 members",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "organization membership roster",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "brics-about-the-brics",
+      "title": "About the BRICS",
+      "publisher": "BRICS Brazil",
+      "coverage": "BRICS member-country roster and institutional scope",
+      "url": "https://sjah9.github.io/war-maps-project/outputs/web/sources.html#brics-source",
+      "license": "Source attribution",
+      "enclosure": "organization membership roster",
+      "retrieved": "2026-09-21",
+      "refresh_status": "Verified at 11 full members",
+      "original_url": "https://brics.br/en/about-the-brics",
+      "availability_note": "The original BRICS Brazil roster was retrieved on 2026-09-21. Its host failed DNS resolution on 2026-09-23; the public link opens the provenance note and Library of Congress source guide. Membership observations are unchanged.",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "organization membership roster",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "eu-member-states",
+      "title": "EU Member States",
+      "publisher": "European Union",
+      "coverage": "Current 27 EU member states",
+      "url": "https://european-union.europa.eu/principles-countries-history/country-profiles_en",
+      "license": "European Union source terms",
+      "enclosure": "organization membership roster",
+      "retrieved": "2026-09-21",
+      "refresh_status": "Verified at 27 member states",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "organization membership roster",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "asean-member-states",
+      "title": "ASEAN Member States",
+      "publisher": "Association of Southeast Asian Nations",
+      "coverage": "Current 11 ASEAN member states, including Timor-Leste",
+      "url": "https://asean.org/member-states/",
+      "license": "ASEAN source terms",
+      "enclosure": "organization membership roster",
+      "retrieved": "2026-09-21",
+      "refresh_status": "Verified at 11 member states including Timor-Leste",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "organization membership roster",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "wef-membership-and-partners",
+      "title": "Forum membership and partner communities",
+      "publisher": "World Economic Forum",
+      "coverage": "Company and stakeholder membership communities; not a state roster",
+      "url": "https://www.weforum.org/communities/partnership-institutional-membership/",
+      "license": "World Economic Forum source terms",
+      "enclosure": "non-state organization membership and partnership records",
+      "retrieved": "2026-09-21",
+      "refresh_status": "Selected entity list revalidated against the current institutional-membership directory",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "non-state organization membership and partnership records",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "opt-health-cluster-public-dashboard",
+      "title": "oPt Unified Health Dashboard — casualty and health-attack aggregates",
+      "publisher": "oPt Health Cluster / WHO; casualty series attributed to Palestinian Ministry of Health",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiODAxNTYzMDYtMjQ3YS00OTMzLTkxMWQtOTU1NWEwMzE5NTMwIiwidCI6ImY2MTBjMGI3LWJkMjQtNGIzOS04MTBiLTNkYzI4MGFmYjU5MCIsImMiOjh9",
+      "coverage": [
+        "2023-10-07",
+        "2026-10-09"
+      ],
+      "retrieved": "2026-10-20T20:12:02.762990+00:00",
+      "model_refreshed": "2026-10-11T11:19:40.917",
+      "sha256": "798f77dc368211e7350be0e7b21c0f8cd2ded89b15b4b4841d68a384352625d3",
+      "license": "Publisher terms apply; no blanket open-data license inferred from public access",
+      "enclosure": "Separate humanitarian context; overlapping reports, never additive to UCDP",
+      "raw_path": "data/raw/opt-health-dashboard.json",
+      "processed_path": "data/processed/opt-health-dashboard.json",
+      "access": "manual",
+      "status": "used",
+      "usage_note": "Separate humanitarian context; overlapping reports, never additive to UCDP",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "used",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "fao-aquastat",
+      "title": "AQUASTAT",
+      "publisher": "Food and Agriculture Organization",
+      "domain": "water",
+      "url": "https://www.fao.org/aquastat/en/databases/index.html",
+      "status": "candidate",
+      "license": "UNSPECIFIED: review publisher terms before reuse",
+      "access": "manual",
+      "usage_note": "water",
+      "projects": [
+        {
+          "id": "global-life-support-atlas",
+          "role": "candidate",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "fao-food-security",
+      "title": "Suite of Food Security Indicators",
+      "publisher": "FAOSTAT",
+      "domain": "food",
+      "url": "https://data.fao.org/catalog/dataset/955d6564-40a9-48b4-b51b-f19d65bb3539",
+      "status": "candidate",
+      "license": "UNSPECIFIED: review publisher terms before reuse",
+      "access": "manual",
+      "usage_note": "food",
+      "projects": [
+        {
+          "id": "global-life-support-atlas",
+          "role": "candidate",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "copernicus-era5-land",
+      "title": "ERA5-Land hourly data from 1950 to present",
+      "publisher": "Copernicus Climate Change Service",
+      "domain": "heat",
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land",
+      "status": "candidate",
+      "license": "UNSPECIFIED: review publisher terms before reuse",
+      "access": "manual",
+      "usage_note": "heat",
+      "projects": [
+        {
+          "id": "global-life-support-atlas",
+          "role": "candidate",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "isric-soilgrids",
+      "title": "SoilGrids",
+      "publisher": "ISRIC - World Soil Information",
+      "domain": "soil",
+      "url": "https://docs.isric.org/globaldata/soilgrids/",
+      "status": "candidate",
+      "license": "UNSPECIFIED: review publisher terms before reuse",
+      "access": "manual",
+      "usage_note": "soil",
+      "projects": [
+        {
+          "id": "global-life-support-atlas",
+          "role": "candidate",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators",
+      "publisher": "World Bank",
+      "domain": "energy, transport, health",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/",
+      "status": "candidate",
+      "license": "UNSPECIFIED: review publisher terms before reuse",
+      "access": "api",
+      "usage_note": "energy, transport, health",
+      "projects": [
+        {
+          "id": "global-life-support-atlas",
+          "role": "candidate",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "world-bank",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "who-gho",
+      "title": "Global Health Observatory",
+      "publisher": "World Health Organization",
+      "domain": "health",
+      "url": "https://www.who.int/data/gho",
+      "status": "candidate",
+      "license": "UNSPECIFIED: review publisher terms before reuse",
+      "access": "manual",
+      "usage_note": "health",
+      "projects": [
+        {
+          "id": "global-life-support-atlas",
+          "role": "candidate",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "protected-planet-wdpa",
+      "title": "World Database on Protected Areas",
+      "publisher": "UNEP-WCMC and IUCN",
+      "domain": "ecological integrity",
+      "url": "https://www.protectedplanet.net/en/thematic-areas/wdpa",
+      "status": "candidate",
+      "license": "UNSPECIFIED: review publisher terms before reuse",
+      "access": "manual",
+      "usage_note": "ecological integrity",
+      "projects": [
+        {
+          "id": "global-life-support-atlas",
+          "role": "candidate",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "vdem",
+      "title": "V-Dem Dataset",
+      "publisher": "V-Dem Institute",
+      "domain": "institutional capacity",
+      "url": "https://www.v-dem.net/data/the-v-dem-dataset/",
+      "status": "candidate",
+      "license": "UNSPECIFIED: review publisher terms before reuse",
+      "access": "manual",
+      "usage_note": "institutional capacity",
+      "projects": [
+        {
+          "id": "global-life-support-atlas",
+          "role": "candidate",
+          "path": "data/SOURCES.json"
+        }
+      ],
+      "adapter": "manual",
+      "download_policy": "manual-review"
+    },
+    {
+      "id": "rtldi-published",
+      "title": "RTLDI Atlas published model outputs",
+      "publisher": "RTLDI Atlas Project",
+      "url": "https://github.com/SJAH9/rtldi-atlas",
+      "license": "MIT project outputs; underlying V-Dem and World Bank terms retained",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "modeled national capital exclusions, not an observed transfer or a recalculated model",
+      "adapter": "rtldi",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "rtldi-atlas",
+          "role": "reference",
+          "path": "src/atlas_evidence.py"
+        }
+      ]
+    },
+    {
+      "id": "vdem-core-v15",
+      "title": "V-Dem v15 institutional source used by RTLDI",
+      "publisher": "V-Dem Institute",
+      "url": "https://github.com/vdeminstitute/vdemdata/releases/tag/V15",
+      "license": "CC BY-SA 4.0 as recorded in upstream project; review original distribution",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Distinct vintage from the War Maps v16 country-year fields",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "rtldi-atlas",
+          "role": "reference",
+          "path": "src/atlas_evidence.py"
+        }
+      ]
+    },
+    {
+      "id": "world-bank-gdp",
+      "title": "GDP per capita and local-currency baselines",
+      "publisher": "World Bank",
+      "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+      "license": "CC BY 4.0; source-specific exceptions may apply",
+      "access": "api",
+      "status": "reference",
+      "usage_note": "Keep currency, valuation basis, matched population year and projection year separate",
+      "adapter": "world-bank",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "rtldi-atlas",
+          "role": "reference",
+          "path": "src/atlas_evidence.py"
+        }
+      ]
+    },
+    {
+      "id": "world-bank-basic-needs",
+      "title": "Undernourishment and poverty indicators",
+      "publisher": "World Bank",
+      "url": "https://data.worldbank.org/indicator/SN.ITK.DEFC.ZS",
+      "license": "CC BY 4.0; source-specific exceptions may apply",
+      "access": "api",
+      "status": "reference",
+      "usage_note": "SN.ITK.DEFC.ZS and SI.POV.DDAY retain their independent source years and definitions",
+      "adapter": "world-bank",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "rtldi-atlas",
+          "role": "reference",
+          "path": "src/atlas_evidence.py"
+        }
+      ]
+    },
+    {
+      "id": "life-support-project",
+      "title": "Global Life-Support Atlas observation contract",
+      "publisher": "Global Life-Support Atlas Project",
+      "url": "https://github.com/SJAH9/global-life-support-atlas",
+      "license": "MIT project materials; upstream dataset terms retained",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Initial observation table is empty. Candidate sources are not accepted observations.",
+      "adapter": "life-support",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "global-life-support-atlas",
+          "role": "reference",
+          "path": "data/SOURCES.json"
+        }
+      ]
+    },
+    {
+      "id": "aaa-fuel",
+      "title": "State pump-price averages",
+      "publisher": "AAA",
+      "url": "https://gasprices.aaa.com/state-gas-price-averages/",
+      "license": "Publisher terms; no blanket redistribution right asserted",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Source-date, fuel-grade and sampling boundary must remain",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "reference",
+          "path": "docs/GAS_MAP.md"
+        }
+      ]
+    },
+    {
+      "id": "eia-fuel",
+      "title": "Gasoline and diesel retail survey",
+      "publisher": "US Energy Information Administration",
+      "url": "https://www.eia.gov/petroleum/gasdiesel/",
+      "license": "Review EIA source conditions",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Weekly survey; distinct from AAA daily state means",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "reference",
+          "path": "docs/GAS_MAP.md"
+        }
+      ]
+    },
+    {
+      "id": "ec-oil-bulletin",
+      "title": "Weekly Oil Bulletin",
+      "publisher": "European Commission",
+      "url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en",
+      "license": "Review EU reuse terms",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Match workbook date, fuel, unit, and tax-inclusive/exclusive tables",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "reference",
+          "path": "docs/GAS_MAP.md"
+        }
+      ]
+    },
+    {
+      "id": "japan-anre-fuel",
+      "title": "Japanese petroleum price statistics",
+      "publisher": "Agency for Natural Resources and Energy",
+      "url": "https://www.enecho.meti.go.jp/statistics/petroleum_and_lpgas/pl007/index.html",
+      "license": "Review publisher terms",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Retain prefecture-level sampling and original units",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "reference",
+          "path": "docs/GAS_MAP.md"
+        }
+      ]
+    },
+    {
+      "id": "india-ppac-fuel",
+      "title": "Selected outlet fuel prices",
+      "publisher": "Petroleum Planning and Analysis Cell",
+      "url": "https://ppac.gov.in/all-imp-news?page=1",
+      "license": "Review publisher terms",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "An outlet observation is not a national mean",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "reference",
+          "path": "docs/GAS_MAP.md"
+        }
+      ]
+    },
+    {
+      "id": "taiwan-cpc-fuel",
+      "title": "Published CPC fuel schedule",
+      "publisher": "CPC Corporation",
+      "url": "https://vipmbr.cpc.com.tw/mbwebs/showhistoryprice_oil.aspx",
+      "license": "Review publisher terms",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Effective schedule date; original fuel grade retained",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "reference",
+          "path": "docs/GAS_MAP.md"
+        }
+      ]
+    },
+    {
+      "id": "australia-accc-fuel",
+      "title": "Weekly fuel-price monitoring",
+      "publisher": "Australian Competition and Consumer Commission",
+      "url": "https://www.accc.gov.au/consumers/petrol-and-fuel",
+      "license": "Review ACCC report reuse terms",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Preserve report date, city/region and calculated-tax method",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "reference",
+          "path": "docs/GAS_MAP.md"
+        }
+      ]
+    },
+    {
+      "id": "nz-mbie-fuel",
+      "title": "Weekly fuel-price monitoring",
+      "publisher": "New Zealand MBIE",
+      "url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/weekly-fuel-price-monitoring/price-for-fuel-response-support",
+      "license": "Review MBIE source terms",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Failed refreshes must retain the actual last-verified observation date",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "reference",
+          "path": "docs/GAS_MAP.md"
+        }
+      ]
+    },
+    {
+      "id": "ecb-fx",
+      "title": "Euro foreign-exchange reference rates",
+      "publisher": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+      "license": "Review ECB reuse terms",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Dated conversion reference, not local purchasing power",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "reference",
+          "path": "docs/GAS_MAP.md"
+        }
+      ]
+    },
+    {
+      "id": "taiwan-cbc-fx",
+      "title": "TWD/USD closing rate",
+      "publisher": "Central Bank of the Republic of China (Taiwan)",
+      "url": "https://www.cbc.gov.tw/tw/lp-645-1-1-40.html",
+      "license": "Review publisher terms",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Preserve currency direction and date",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "reference",
+          "path": "docs/GAS_MAP.md"
+        }
+      ]
+    },
+    {
+      "id": "geonames",
+      "title": "Geographic names",
+      "publisher": "GeoNames",
+      "url": "https://download.geonames.org/export/dump/",
+      "license": "CC BY 4.0",
+      "access": "manual",
+      "status": "reference",
+      "usage_note": "Unmatched locations stay unresolved rather than being guessed",
+      "adapter": "manual",
+      "download_policy": "manual-review",
+      "projects": [
+        {
+          "id": "war-maps-project",
+          "role": "reference",
+          "path": "docs/GAS_MAP.md"
+        }
+      ]
+    }
+  ]
+}

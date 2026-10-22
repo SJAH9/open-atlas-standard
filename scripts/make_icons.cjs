@@ -1,0 +1,4 @@
+/* Rasterize our own vector icon for mobile app manifests. No remote assets. */
+const fs=require('fs'),path=require('path');
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+(async()=>{const root=path.resolve(__dirname,'../open_atlas/assets'),browser=await chromium.launch({headless:true,executablePath:process.env.BROWSER_EXECUTABLE});try{const p=await browser.newPage();const svg=fs.readFileSync(path.join(root,'icon.svg'),'utf8');for(const size of[192,512]){const data=await p.evaluate(async({svg,size})=>{const img=new Image();img.src='data:image/svg+xml;base64,'+btoa(svg);await img.decode();const c=document.createElement('canvas');c.width=c.height=size;c.getContext('2d').drawImage(img,0,0,size,size);return c.toDataURL('image/png').split(',')[1]},{svg,size});fs.writeFileSync(path.join(root,'icon-'+size+'.png'),Buffer.from(data,'base64'))}}finally{await browser.close()}})().catch(e=>{console.error(e);process.exitCode=1});

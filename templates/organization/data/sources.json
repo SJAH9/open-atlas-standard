@@ -1,0 +1,28 @@
+[
+  {
+    "id": "natural-earth-110m-geometry",
+    "title": "Natural Earth Admin 0 Countries, 1:110m",
+    "publisher": "Natural Earth",
+    "coverage": "Cartographic geometry only; never used as conflict evidence",
+    "url": "https://www.naturalearthdata.com/",
+    "license": "Public domain",
+    "enclosure": "map geometry",
+    "retrieved": "2026-08-28",
+    "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+    "refresh_status": "Verified unchanged",
+    "access": "download",
+    "status": "used",
+    "usage_note": "map geometry",
+    "upstream_verified": "2026-09-21",
+    "projects": [
+      {
+        "id": "war-maps-project",
+        "role": "used",
+        "path": "data/SOURCES.json"
+      }
+    ],
+    "adapter": "geojson",
+    "download_policy": "redistributable",
+    "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/"
+  }
+]

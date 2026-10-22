@@ -1,0 +1,2234 @@
+[
+  {
+    "id": "FJI",
+    "name": "Fiji",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "FJI",
+      "iso3": "FJI"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "TZA",
+    "name": "United Republic of Tanzania",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "TZA",
+      "iso3": "TZA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ESH",
+    "name": "Western Sahara",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SAH",
+      "iso3": "ESH"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CAN",
+      "iso3": "CAN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "USA",
+    "name": "United States of America",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "USA",
+      "iso3": "USA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "KAZ",
+    "name": "Kazakhstan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "KAZ",
+      "iso3": "KAZ"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "UZB",
+      "iso3": "UZB"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "PNG",
+    "name": "Papua New Guinea",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "PNG",
+      "iso3": "PNG"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "IDN",
+    "name": "Indonesia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "IDN",
+      "iso3": "IDN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ARG",
+    "name": "Argentina",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ARG",
+      "iso3": "ARG"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CHL",
+    "name": "Chile",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CHL",
+      "iso3": "CHL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "COD",
+    "name": "Democratic Republic of the Congo",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "COD",
+      "iso3": "COD"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SOM",
+    "name": "Somalia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SOM",
+      "iso3": "SOM"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "KEN",
+    "name": "Kenya",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "KEN",
+      "iso3": "KEN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SDN",
+    "name": "Sudan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SDN",
+      "iso3": "SDN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "TCD",
+    "name": "Chad",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "TCD",
+      "iso3": "TCD"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "HTI",
+    "name": "Haiti",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "HTI",
+      "iso3": "HTI"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "DOM",
+    "name": "Dominican Republic",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "DOM",
+      "iso3": "DOM"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "RUS",
+    "name": "Russia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "RUS",
+      "iso3": "RUS"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BHS",
+    "name": "The Bahamas",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BHS",
+      "iso3": "BHS"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "FLK",
+    "name": "Falkland Islands",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "FLK",
+      "iso3": "FLK"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "NOR",
+    "name": "Norway",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "NOR",
+      "iso3": "-99"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GRL",
+    "name": "Greenland",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GRL",
+      "iso3": "GRL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ATF",
+    "name": "French Southern and Antarctic Lands",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ATF",
+      "iso3": "ATF"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "TLS",
+    "name": "East Timor",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "TLS",
+      "iso3": "TLS"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ZAF",
+    "name": "South Africa",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ZAF",
+      "iso3": "ZAF"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "LSO",
+    "name": "Lesotho",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "LSO",
+      "iso3": "LSO"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MEX",
+    "name": "Mexico",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MEX",
+      "iso3": "MEX"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "URY",
+    "name": "Uruguay",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "URY",
+      "iso3": "URY"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BRA",
+    "name": "Brazil",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BRA",
+      "iso3": "BRA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BOL",
+    "name": "Bolivia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BOL",
+      "iso3": "BOL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "PER",
+    "name": "Peru",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "PER",
+      "iso3": "PER"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "COL",
+    "name": "Colombia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "COL",
+      "iso3": "COL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "PAN",
+      "iso3": "PAN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CRI",
+    "name": "Costa Rica",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CRI",
+      "iso3": "CRI"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "NIC",
+    "name": "Nicaragua",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "NIC",
+      "iso3": "NIC"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "HND",
+    "name": "Honduras",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "HND",
+      "iso3": "HND"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SLV",
+    "name": "El Salvador",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SLV",
+      "iso3": "SLV"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GTM",
+    "name": "Guatemala",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GTM",
+      "iso3": "GTM"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BLZ",
+    "name": "Belize",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BLZ",
+      "iso3": "BLZ"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "VEN",
+    "name": "Venezuela",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "VEN",
+      "iso3": "VEN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GUY",
+    "name": "Guyana",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GUY",
+      "iso3": "GUY"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SUR",
+    "name": "Suriname",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SUR",
+      "iso3": "SUR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "FRA",
+      "iso3": "-99"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ECU",
+      "iso3": "ECU"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "PRI",
+    "name": "Puerto Rico",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "PRI",
+      "iso3": "PRI"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "JAM",
+    "name": "Jamaica",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "JAM",
+      "iso3": "JAM"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CUB",
+    "name": "Cuba",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CUB",
+      "iso3": "CUB"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ZWE",
+    "name": "Zimbabwe",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ZWE",
+      "iso3": "ZWE"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BWA",
+    "name": "Botswana",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BWA",
+      "iso3": "BWA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "NAM",
+    "name": "Namibia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "NAM",
+      "iso3": "NAM"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SEN",
+      "iso3": "SEN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MLI",
+    "name": "Mali",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MLI",
+      "iso3": "MLI"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MRT",
+    "name": "Mauritania",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MRT",
+      "iso3": "MRT"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BEN",
+    "name": "Benin",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BEN",
+      "iso3": "BEN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "NER",
+    "name": "Niger",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "NER",
+      "iso3": "NER"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "NGA",
+    "name": "Nigeria",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "NGA",
+      "iso3": "NGA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CMR",
+    "name": "Cameroon",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CMR",
+      "iso3": "CMR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "TGO",
+    "name": "Togo",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "TGO",
+      "iso3": "TGO"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GHA",
+    "name": "Ghana",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GHA",
+      "iso3": "GHA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CIV",
+    "name": "Ivory Coast",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CIV",
+      "iso3": "CIV"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GIN",
+    "name": "Guinea",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GIN",
+      "iso3": "GIN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GNB",
+    "name": "Guinea-Bissau",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GNB",
+      "iso3": "GNB"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "LBR",
+    "name": "Liberia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "LBR",
+      "iso3": "LBR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SLE",
+    "name": "Sierra Leone",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SLE",
+      "iso3": "SLE"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BFA",
+    "name": "Burkina Faso",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BFA",
+      "iso3": "BFA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CAF",
+    "name": "Central African Republic",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CAF",
+      "iso3": "CAF"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "COG",
+    "name": "Republic of the Congo",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "COG",
+      "iso3": "COG"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GAB",
+    "name": "Gabon",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GAB",
+      "iso3": "GAB"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GNQ",
+    "name": "Equatorial Guinea",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GNQ",
+      "iso3": "GNQ"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ZMB",
+    "name": "Zambia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ZMB",
+      "iso3": "ZMB"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MWI",
+    "name": "Malawi",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MWI",
+      "iso3": "MWI"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MOZ",
+    "name": "Mozambique",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MOZ",
+      "iso3": "MOZ"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SWZ",
+    "name": "eSwatini",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SWZ",
+      "iso3": "SWZ"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "AGO",
+    "name": "Angola",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "AGO",
+      "iso3": "AGO"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BDI",
+    "name": "Burundi",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BDI",
+      "iso3": "BDI"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ISR",
+    "name": "Israel",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ISR",
+      "iso3": "ISR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "LBN",
+    "name": "Lebanon",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "LBN",
+      "iso3": "LBN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MDG",
+    "name": "Madagascar",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MDG",
+      "iso3": "MDG"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "PSE",
+    "name": "Palestine",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "PSX",
+      "iso3": "PSE"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GMB",
+    "name": "Gambia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GMB",
+      "iso3": "GMB"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "TUN",
+    "name": "Tunisia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "TUN",
+      "iso3": "TUN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "DZA",
+    "name": "Algeria",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "DZA",
+      "iso3": "DZA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "JOR",
+    "name": "Jordan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "JOR",
+      "iso3": "JOR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ARE",
+    "name": "United Arab Emirates",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ARE",
+      "iso3": "ARE"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "QAT",
+    "name": "Qatar",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "QAT",
+      "iso3": "QAT"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "KWT",
+    "name": "Kuwait",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "KWT",
+      "iso3": "KWT"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "IRQ",
+    "name": "Iraq",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "IRQ",
+      "iso3": "IRQ"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "OMN",
+    "name": "Oman",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "OMN",
+      "iso3": "OMN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "VUT",
+    "name": "Vanuatu",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "VUT",
+      "iso3": "VUT"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "KHM",
+    "name": "Cambodia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "KHM",
+      "iso3": "KHM"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "THA",
+    "name": "Thailand",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "THA",
+      "iso3": "THA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "LAO",
+    "name": "Laos",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "LAO",
+      "iso3": "LAO"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MMR",
+    "name": "Myanmar",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MMR",
+      "iso3": "MMR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "VNM",
+    "name": "Vietnam",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "VNM",
+      "iso3": "VNM"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "PRK",
+    "name": "North Korea",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "PRK",
+      "iso3": "PRK"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "KOR",
+    "name": "South Korea",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "KOR",
+      "iso3": "KOR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MNG",
+    "name": "Mongolia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MNG",
+      "iso3": "MNG"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "IND",
+    "name": "India",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "IND",
+      "iso3": "IND"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BGD",
+    "name": "Bangladesh",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BGD",
+      "iso3": "BGD"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BTN",
+    "name": "Bhutan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BTN",
+      "iso3": "BTN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "NPL",
+    "name": "Nepal",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "NPL",
+      "iso3": "NPL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "PAK",
+    "name": "Pakistan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "PAK",
+      "iso3": "PAK"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "AFG",
+    "name": "Afghanistan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "AFG",
+      "iso3": "AFG"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "TJK",
+    "name": "Tajikistan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "TJK",
+      "iso3": "TJK"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "KGZ",
+    "name": "Kyrgyzstan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "KGZ",
+      "iso3": "KGZ"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "TKM",
+    "name": "Turkmenistan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "TKM",
+      "iso3": "TKM"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "IRN",
+    "name": "Iran",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "IRN",
+      "iso3": "IRN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SYR",
+    "name": "Syria",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SYR",
+      "iso3": "SYR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ARM",
+    "name": "Armenia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ARM",
+      "iso3": "ARM"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SWE",
+    "name": "Sweden",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SWE",
+      "iso3": "SWE"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BLR",
+    "name": "Belarus",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BLR",
+      "iso3": "BLR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "UKR",
+    "name": "Ukraine",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "UKR",
+      "iso3": "UKR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "POL",
+    "name": "Poland",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "POL",
+      "iso3": "POL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "AUT",
+    "name": "Austria",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "AUT",
+      "iso3": "AUT"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "HUN",
+    "name": "Hungary",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "HUN",
+      "iso3": "HUN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MDA",
+    "name": "Moldova",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MDA",
+      "iso3": "MDA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ROU",
+    "name": "Romania",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ROU",
+      "iso3": "ROU"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "LTU",
+    "name": "Lithuania",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "LTU",
+      "iso3": "LTU"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "LVA",
+    "name": "Latvia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "LVA",
+      "iso3": "LVA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "EST",
+    "name": "Estonia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "EST",
+      "iso3": "EST"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "DEU",
+    "name": "Germany",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "DEU",
+      "iso3": "DEU"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BGR",
+    "name": "Bulgaria",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BGR",
+      "iso3": "BGR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GRC",
+    "name": "Greece",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GRC",
+      "iso3": "GRC"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "TUR",
+    "name": "Turkey",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "TUR",
+      "iso3": "TUR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ALB",
+    "name": "Albania",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ALB",
+      "iso3": "ALB"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "HRV",
+    "name": "Croatia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "HRV",
+      "iso3": "HRV"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CHE",
+    "name": "Switzerland",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CHE",
+      "iso3": "CHE"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "LUX",
+    "name": "Luxembourg",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "LUX",
+      "iso3": "LUX"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BEL",
+    "name": "Belgium",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BEL",
+      "iso3": "BEL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "NLD",
+    "name": "Netherlands",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "NLD",
+      "iso3": "NLD"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "PRT",
+    "name": "Portugal",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "PRT",
+      "iso3": "PRT"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ESP",
+    "name": "Spain",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ESP",
+      "iso3": "ESP"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "IRL",
+    "name": "Ireland",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "IRL",
+      "iso3": "IRL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "NCL",
+    "name": "New Caledonia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "NCL",
+      "iso3": "NCL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SLB",
+    "name": "Solomon Islands",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SLB",
+      "iso3": "SLB"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "NZL",
+    "name": "New Zealand",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "NZL",
+      "iso3": "NZL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "AUS",
+      "iso3": "AUS"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "LKA",
+    "name": "Sri Lanka",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "LKA",
+      "iso3": "LKA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CHN",
+    "name": "China",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CHN",
+      "iso3": "CHN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "TWN",
+    "name": "Taiwan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "TWN",
+      "iso3": "TWN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ITA",
+    "name": "Italy",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ITA",
+      "iso3": "ITA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "DNK",
+    "name": "Denmark",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "DNK",
+      "iso3": "DNK"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GBR",
+    "name": "United Kingdom",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GBR",
+      "iso3": "GBR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ISL",
+    "name": "Iceland",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ISL",
+      "iso3": "ISL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "AZE",
+    "name": "Azerbaijan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "AZE",
+      "iso3": "AZE"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "GEO",
+    "name": "Georgia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "GEO",
+      "iso3": "GEO"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "PHL",
+    "name": "Philippines",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "PHL",
+      "iso3": "PHL"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MYS",
+    "name": "Malaysia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MYS",
+      "iso3": "MYS"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BRN",
+    "name": "Brunei",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BRN",
+      "iso3": "BRN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SVN",
+    "name": "Slovenia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SVN",
+      "iso3": "SVN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "FIN",
+    "name": "Finland",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "FIN",
+      "iso3": "FIN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SVK",
+    "name": "Slovakia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SVK",
+      "iso3": "SVK"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CZE",
+    "name": "Czechia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CZE",
+      "iso3": "CZE"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ERI",
+    "name": "Eritrea",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ERI",
+      "iso3": "ERI"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "JPN",
+    "name": "Japan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "JPN",
+      "iso3": "JPN"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "PRY",
+    "name": "Paraguay",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "PRY",
+      "iso3": "PRY"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "YEM",
+    "name": "Yemen",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "YEM",
+      "iso3": "YEM"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SAU",
+    "name": "Saudi Arabia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SAU",
+      "iso3": "SAU"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ATA",
+    "name": "Antarctica",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ATA",
+      "iso3": "ATA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CYN",
+    "name": "Northern Cyprus",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CYN",
+      "iso3": "-99"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "CYP",
+    "name": "Cyprus",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "CYP",
+      "iso3": "CYP"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MAR",
+    "name": "Morocco",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MAR",
+      "iso3": "MAR"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "EGY",
+    "name": "Egypt",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "EGY",
+      "iso3": "EGY"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "LBY",
+    "name": "Libya",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "LBY",
+      "iso3": "LBY"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "ETH",
+    "name": "Ethiopia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "ETH",
+      "iso3": "ETH"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "DJI",
+    "name": "Djibouti",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "DJI",
+      "iso3": "DJI"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SOL",
+    "name": "Somaliland",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SOL",
+      "iso3": "-99"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "UGA",
+    "name": "Uganda",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "UGA",
+      "iso3": "UGA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "RWA",
+    "name": "Rwanda",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "RWA",
+      "iso3": "RWA"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "BIH",
+      "iso3": "BIH"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MKD",
+    "name": "North Macedonia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MKD",
+      "iso3": "MKD"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SRB",
+    "name": "Republic of Serbia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SRB",
+      "iso3": "SRB"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "MNE",
+    "name": "Montenegro",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "MNE",
+      "iso3": "MNE"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "KOS",
+    "name": "Kosovo",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "KOS",
+      "iso3": "-99"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "TTO",
+    "name": "Trinidad and Tobago",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "TTO",
+      "iso3": "TTO"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "SSD",
+    "name": "South Sudan",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "natural_earth": "SDS",
+      "iso3": "SSD"
+    },
+    "notes": "Cartographic unit from Natural Earth; not a claim about sovereignty."
+  },
+  {
+    "id": "world",
+    "name": "World",
+    "kind": "global"
+  },
+  {
+    "id": "SGP",
+    "name": "Singapore",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "SGP"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "BHR",
+    "name": "Bahrain",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "BHR"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "MUS",
+    "name": "Mauritius",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "MUS"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "MLT",
+    "name": "Malta",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "MLT"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "MCO",
+    "name": "Monaco",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "MCO"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "LIE",
+    "name": "Liechtenstein",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "LIE"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "MDV",
+    "name": "Maldives",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "MDV"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "AND",
+    "name": "Andorra",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "AND"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "BRB",
+    "name": "Barbados",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "BRB"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "LCA",
+    "name": "St. Lucia",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "LCA"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "ATG",
+    "name": "Antigua and Barbuda",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "ATG"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "SMR",
+    "name": "San Marino",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "SMR"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "CPV",
+    "name": "Cabo Verde",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "CPV"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "COM",
+    "name": "Comoros",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "COM"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "GRD",
+    "name": "Grenada",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "GRD"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "WSM",
+    "name": "Samoa",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "WSM"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "VCT",
+    "name": "St. Vincent and the Grenadines",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "VCT"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "KNA",
+    "name": "St. Kitts and Nevis",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "KNA"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "DMA",
+    "name": "Dominica",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "DMA"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "STP",
+    "name": "Sao Tome and Principe",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "STP"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "TON",
+    "name": "Tonga",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "TON"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "FSM",
+    "name": "Micronesia, Fed. Sts.",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "FSM"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "SYC",
+    "name": "Seychelles",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "SYC"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "KIR",
+    "name": "Kiribati",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "KIR"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "MHL",
+    "name": "Marshall Islands",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "MHL"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "PLW",
+    "name": "Palau",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "PLW"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "NRU",
+    "name": "Nauru",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "NRU"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  },
+  {
+    "id": "TUV",
+    "name": "Tuvalu",
+    "kind": "country",
+    "parent": "world",
+    "identifiers": {
+      "iso3": "TUV"
+    },
+    "notes": "No polygon in the bundled 1:110m geometry. The record remains available in the table."
+  }
+]

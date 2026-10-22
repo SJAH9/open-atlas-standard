@@ -1,0 +1,14 @@
+[
+  {
+    "id": "measure",
+    "title": "Your first measure",
+    "unit": "Declare native unit",
+    "description": "Define what is measured, the source population, time interval and whether this is observed, estimated, modeled or derived.",
+    "domain": [
+      0,
+      100
+    ],
+    "aggregation": "none",
+    "direction": "neutral"
+  }
+]

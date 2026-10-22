@@ -1,0 +1,25 @@
+{
+  "standard_version": "0.1.0",
+  "id": "candidate-event-register",
+  "title": "Events, Not Totals",
+  "owner": "Sid J.A. Hubbard",
+  "description": "A bounded January 1, 2026 slice of provisional UCDP candidate records, preserved from War Maps. Select an event to inspect the source and uncertainty; estimates are never summed.",
+  "license": "MIT original software and documentation; upstream data terms remain separate.",
+  "geometry_source": "natural-earth-110m-geometry",
+  "publication_url": "https://sjah9.github.io/open-atlas-standard/events/",
+  "scope": "Only candidate records whose source start date is 2026-01-01. Points appear only where War Maps declares map_point_eligible; not all events have precise locations.",
+  "method": "Individual best estimates are copied unchanged. Country polygons are context, not a country fatality map. Source record_class and fatality_rollup_eligible are retained, not overridden.",
+  "files": {
+    "entities": "data/entities.json",
+    "metrics": "data/metrics.json",
+    "observations": "data/observations.json",
+    "sources": "data/sources.json",
+    "relations": "data/relations.json",
+    "geometry": "data/geometry.geojson"
+  },
+  "extensions": {
+    "snapshot_sha256": "138211c4517f47839ac60486d0a787c6e3cfd521457a1da40f62c46b3eca6b43",
+    "selected_event_count": 74,
+    "mapped_event_count": 62
+  }
+}

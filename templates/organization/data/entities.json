@@ -1,0 +1,1069 @@
+[
+  {
+    "id": "world",
+    "name": "World",
+    "kind": "global"
+  },
+  {
+    "id": "FJI",
+    "name": "Fiji",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "TZA",
+    "name": "United Republic of Tanzania",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ESH",
+    "name": "Western Sahara",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "USA",
+    "name": "United States of America",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "KAZ",
+    "name": "Kazakhstan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "PNG",
+    "name": "Papua New Guinea",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "IDN",
+    "name": "Indonesia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ARG",
+    "name": "Argentina",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CHL",
+    "name": "Chile",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "COD",
+    "name": "Democratic Republic of the Congo",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SOM",
+    "name": "Somalia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "KEN",
+    "name": "Kenya",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SDN",
+    "name": "Sudan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "TCD",
+    "name": "Chad",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "HTI",
+    "name": "Haiti",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "DOM",
+    "name": "Dominican Republic",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "RUS",
+    "name": "Russia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BHS",
+    "name": "The Bahamas",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "FLK",
+    "name": "Falkland Islands",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "NOR",
+    "name": "Norway",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GRL",
+    "name": "Greenland",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ATF",
+    "name": "French Southern and Antarctic Lands",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "TLS",
+    "name": "East Timor",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ZAF",
+    "name": "South Africa",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "LSO",
+    "name": "Lesotho",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MEX",
+    "name": "Mexico",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "URY",
+    "name": "Uruguay",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BRA",
+    "name": "Brazil",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BOL",
+    "name": "Bolivia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "PER",
+    "name": "Peru",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "COL",
+    "name": "Colombia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CRI",
+    "name": "Costa Rica",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "NIC",
+    "name": "Nicaragua",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "HND",
+    "name": "Honduras",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SLV",
+    "name": "El Salvador",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GTM",
+    "name": "Guatemala",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BLZ",
+    "name": "Belize",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "VEN",
+    "name": "Venezuela",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GUY",
+    "name": "Guyana",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SUR",
+    "name": "Suriname",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "PRI",
+    "name": "Puerto Rico",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "JAM",
+    "name": "Jamaica",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CUB",
+    "name": "Cuba",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ZWE",
+    "name": "Zimbabwe",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BWA",
+    "name": "Botswana",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "NAM",
+    "name": "Namibia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MLI",
+    "name": "Mali",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MRT",
+    "name": "Mauritania",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BEN",
+    "name": "Benin",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "NER",
+    "name": "Niger",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "NGA",
+    "name": "Nigeria",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CMR",
+    "name": "Cameroon",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "TGO",
+    "name": "Togo",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GHA",
+    "name": "Ghana",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CIV",
+    "name": "Ivory Coast",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GIN",
+    "name": "Guinea",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GNB",
+    "name": "Guinea-Bissau",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "LBR",
+    "name": "Liberia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SLE",
+    "name": "Sierra Leone",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BFA",
+    "name": "Burkina Faso",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CAF",
+    "name": "Central African Republic",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "COG",
+    "name": "Republic of the Congo",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GAB",
+    "name": "Gabon",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GNQ",
+    "name": "Equatorial Guinea",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ZMB",
+    "name": "Zambia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MWI",
+    "name": "Malawi",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MOZ",
+    "name": "Mozambique",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SWZ",
+    "name": "eSwatini",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "AGO",
+    "name": "Angola",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BDI",
+    "name": "Burundi",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ISR",
+    "name": "Israel",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "LBN",
+    "name": "Lebanon",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MDG",
+    "name": "Madagascar",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "PSE",
+    "name": "Palestine",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GMB",
+    "name": "Gambia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "TUN",
+    "name": "Tunisia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "DZA",
+    "name": "Algeria",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "JOR",
+    "name": "Jordan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ARE",
+    "name": "United Arab Emirates",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "QAT",
+    "name": "Qatar",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "KWT",
+    "name": "Kuwait",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "IRQ",
+    "name": "Iraq",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "OMN",
+    "name": "Oman",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "VUT",
+    "name": "Vanuatu",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "KHM",
+    "name": "Cambodia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "THA",
+    "name": "Thailand",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "LAO",
+    "name": "Laos",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MMR",
+    "name": "Myanmar",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "VNM",
+    "name": "Vietnam",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "PRK",
+    "name": "North Korea",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "KOR",
+    "name": "South Korea",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MNG",
+    "name": "Mongolia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "IND",
+    "name": "India",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BGD",
+    "name": "Bangladesh",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BTN",
+    "name": "Bhutan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "NPL",
+    "name": "Nepal",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "PAK",
+    "name": "Pakistan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "AFG",
+    "name": "Afghanistan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "TJK",
+    "name": "Tajikistan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "KGZ",
+    "name": "Kyrgyzstan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "TKM",
+    "name": "Turkmenistan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "IRN",
+    "name": "Iran",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SYR",
+    "name": "Syria",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ARM",
+    "name": "Armenia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SWE",
+    "name": "Sweden",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BLR",
+    "name": "Belarus",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "UKR",
+    "name": "Ukraine",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "POL",
+    "name": "Poland",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "AUT",
+    "name": "Austria",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "HUN",
+    "name": "Hungary",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MDA",
+    "name": "Moldova",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ROU",
+    "name": "Romania",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "LTU",
+    "name": "Lithuania",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "LVA",
+    "name": "Latvia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "EST",
+    "name": "Estonia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "DEU",
+    "name": "Germany",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BGR",
+    "name": "Bulgaria",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GRC",
+    "name": "Greece",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "TUR",
+    "name": "Turkey",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ALB",
+    "name": "Albania",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "HRV",
+    "name": "Croatia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CHE",
+    "name": "Switzerland",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "LUX",
+    "name": "Luxembourg",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BEL",
+    "name": "Belgium",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "NLD",
+    "name": "Netherlands",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "PRT",
+    "name": "Portugal",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ESP",
+    "name": "Spain",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "IRL",
+    "name": "Ireland",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "NCL",
+    "name": "New Caledonia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SLB",
+    "name": "Solomon Islands",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "NZL",
+    "name": "New Zealand",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "LKA",
+    "name": "Sri Lanka",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CHN",
+    "name": "China",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "TWN",
+    "name": "Taiwan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ITA",
+    "name": "Italy",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "DNK",
+    "name": "Denmark",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GBR",
+    "name": "United Kingdom",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ISL",
+    "name": "Iceland",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "AZE",
+    "name": "Azerbaijan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "GEO",
+    "name": "Georgia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "PHL",
+    "name": "Philippines",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MYS",
+    "name": "Malaysia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BRN",
+    "name": "Brunei",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SVN",
+    "name": "Slovenia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "FIN",
+    "name": "Finland",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SVK",
+    "name": "Slovakia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CZE",
+    "name": "Czechia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ERI",
+    "name": "Eritrea",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "JPN",
+    "name": "Japan",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "PRY",
+    "name": "Paraguay",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "YEM",
+    "name": "Yemen",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SAU",
+    "name": "Saudi Arabia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ATA",
+    "name": "Antarctica",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CYN",
+    "name": "Northern Cyprus",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "CYP",
+    "name": "Cyprus",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MAR",
+    "name": "Morocco",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "EGY",
+    "name": "Egypt",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "LBY",
+    "name": "Libya",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "ETH",
+    "name": "Ethiopia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "DJI",
+    "name": "Djibouti",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SOL",
+    "name": "Somaliland",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "UGA",
+    "name": "Uganda",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "RWA",
+    "name": "Rwanda",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MKD",
+    "name": "North Macedonia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SRB",
+    "name": "Republic of Serbia",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "MNE",
+    "name": "Montenegro",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "KOS",
+    "name": "Kosovo",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "TTO",
+    "name": "Trinidad and Tobago",
+    "kind": "country",
+    "parent": "world"
+  },
+  {
+    "id": "SSD",
+    "name": "South Sudan",
+    "kind": "country",
+    "parent": "world"
+  }
+]

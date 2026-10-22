@@ -1,0 +1,91 @@
+[
+  {
+    "id": "natural-earth-110m-geometry",
+    "title": "Natural Earth Admin 0 Countries, 1:110m",
+    "publisher": "Natural Earth",
+    "coverage": "Cartographic geometry only; never used as conflict evidence",
+    "url": "https://www.naturalearthdata.com/",
+    "license": "Public domain",
+    "enclosure": "map geometry",
+    "retrieved": "2026-08-28",
+    "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+    "refresh_status": "Verified unchanged",
+    "access": "download",
+    "status": "used",
+    "usage_note": "map geometry",
+    "upstream_verified": "2026-09-21",
+    "projects": [
+      {
+        "id": "war-maps-project",
+        "role": "used",
+        "path": "data/SOURCES.json"
+      }
+    ],
+    "adapter": "geojson",
+    "download_policy": "redistributable",
+    "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/"
+  },
+  {
+    "id": "rtldi-published",
+    "title": "RTLDI Atlas published model outputs",
+    "publisher": "RTLDI Atlas Project",
+    "url": "https://github.com/SJAH9/rtldi-atlas",
+    "license": "MIT project outputs; underlying V-Dem and World Bank terms retained",
+    "access": "manual",
+    "status": "reference",
+    "usage_note": "modeled national capital exclusions, not an observed transfer or a recalculated model",
+    "adapter": "rtldi",
+    "download_policy": "manual-review",
+    "projects": [
+      {
+        "id": "rtldi-atlas",
+        "role": "reference",
+        "path": "src/atlas_evidence.py"
+      }
+    ]
+  },
+  {
+    "id": "world-bank-wdi-total-population",
+    "title": "World Development Indicators: Population, total",
+    "publisher": "World Bank",
+    "coverage": "1960-2025 country-year observations distributed through WDI; primarily sourced from UN World Population Prospects",
+    "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+    "license": "CC BY 4.0",
+    "enclosure": "de facto mid-year population estimate; not a conflict exposure or casualty measure",
+    "retrieved": "2026-10-19",
+    "sha256": "afebdcf7ed2ac0b36bfad60902747de65736fe5a3433820efba97af4d00f388d",
+    "refresh_status": "Official download updated; see dated refresh audit",
+    "access": "api",
+    "status": "used",
+    "usage_note": "de facto mid-year population estimate; not a conflict exposure or casualty measure",
+    "upstream_verified": "2026-10-19",
+    "projects": [
+      {
+        "id": "war-maps-project",
+        "role": "used",
+        "path": "data/SOURCES.json"
+      }
+    ],
+    "adapter": "world-bank",
+    "download_policy": "manual-review"
+  },
+  {
+    "id": "life-support-project",
+    "title": "Global Life-Support Atlas observation contract",
+    "publisher": "Global Life-Support Atlas Project",
+    "url": "https://github.com/SJAH9/global-life-support-atlas",
+    "license": "MIT project materials; upstream dataset terms retained",
+    "access": "manual",
+    "status": "reference",
+    "usage_note": "Initial observation table is empty. Candidate sources are not accepted observations.",
+    "adapter": "life-support",
+    "download_policy": "manual-review",
+    "projects": [
+      {
+        "id": "global-life-support-atlas",
+        "role": "reference",
+        "path": "data/SOURCES.json"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "https://github.com/SJAH9/war-maps-project",
+    "commit": "976d92a510c3c73f9de76c5997c0c1c89d188ef4",
+    "readme_sha256": "922165b6f7008c156a8642d2516a32663b8f788c181f4146fd8b41c943b50731",
+    "license": "MIT for project software; upstream data retain separate terms"
+  },
+  {
+    "repository": "https://github.com/SJAH9/rtldi-atlas",
+    "commit": "c338deb69543056459ff5a783e33e4cef182d955",
+    "readme_sha256": "621c8d8179673846d57aa903e2db9dddaf662788f2f44fa327001af734ebd485",
+    "license": "MIT for project software; upstream data retain separate terms"
+  },
+  {
+    "repository": "https://github.com/SJAH9/global-life-support-atlas",
+    "commit": "8adbbd06b902e6b0da0bf93ee1f0d9c7e5b0b39d",
+    "readme_sha256": "de7c8de31bdde66ab5368d4548cf1933d52bab65ef626fdde70aed74b0023914",
+    "license": "MIT for project software; upstream data retain separate terms"
+  }
+]

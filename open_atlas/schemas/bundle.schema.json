@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sjah9.github.io/open-atlas-standard/schema/bundle-0.1.json",
+  "title": "Open Atlas bundle 0.1",
+  "type": "object",
+  "required": ["project", "entities", "metrics", "observations", "sources", "relations", "geometry"],
+  "properties": {
+    "project": {"$ref": "#/$defs/project"},
+    "entities": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/entity"}},
+    "metrics": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/metric"}},
+    "observations": {"type": "array", "items": {"$ref": "#/$defs/observation"}},
+    "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/source"}},
+    "relations": {"type": "array", "items": {"$ref": "#/$defs/relation"}},
+    "geometry": {
+      "type": "object", "required": ["type", "features"],
+      "properties": {
+        "type": {"const": "FeatureCollection"},
+        "features": {"type": "array", "items": {"type": "object", "required": ["id", "type", "properties", "geometry"], "properties": {
+          "id": {"type": "string", "minLength": 1}, "type": {"const": "Feature"},
+          "properties": {"type": "object", "required": ["entity"], "properties": {"entity": {"$ref": "#/$defs/id"}}},
+          "geometry": {"type": ["object", "null"], "properties": {"type": {"type": "string"}, "coordinates": {"type": "array"}}, "required": ["type", "coordinates"]}
+        }}}
+      }
+    }
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"},
+    "status": {"enum": ["observed", "derived", "modeled", "estimated", "inference", "claim", "synthetic", "missing"]},
+    "project": {
+      "type": "object", "required": ["standard_version", "id", "title", "description", "owner", "license", "geometry_source", "files"],
+      "properties": {
+        "standard_version": {"const": "0.1.0"}, "id": {"$ref": "#/$defs/id"},
+        "title": {"type": "string", "minLength": 1}, "description": {"type": "string"},
+        "owner": {"type": "string", "minLength": 1}, "license": {"type": "string", "minLength": 1},
+        "publication_url": {"type": "string"}, "geometry_source": {"$ref": "#/$defs/id"},
+        "files": {"type": "object", "required": ["entities", "metrics", "observations", "sources", "relations", "geometry"], "additionalProperties": {"type": "string", "minLength": 1}},
+        "method": {"type": "string"}, "scope": {"type": "string"}, "extensions": {"type": "object"}
+      }
+    },
+    "entity": {
+      "type": "object", "required": ["id", "name", "kind"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "name": {"type": "string", "minLength": 1},
+        "kind": {"enum": ["country", "region", "place", "organization", "global", "event", "other"]},
+        "parent": {"type": ["string", "null"]}, "identifiers": {"type": "object"}, "notes": {"type": "string"}
+      }
+    },
+    "metric": {
+      "type": "object", "required": ["id", "title", "unit", "description", "domain", "aggregation"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "title": {"type": "string", "minLength": 1},
+        "unit": {"type": "string", "minLength": 1}, "description": {"type": "string"},
+        "domain": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "number"}},
+        "aggregation": {"enum": ["none", "sum", "weighted_mean"]}, "weight_metric": {"$ref": "#/$defs/id"},
+        "direction": {"enum": ["higher", "lower", "neutral"]}, "method": {"type": "string"}
+      }
+    },
+    "observation": {
+      "type": "object", "required": ["id", "entity", "metric", "period", "value", "status", "source", "source_version", "retrieved_at"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "entity": {"$ref": "#/$defs/id"}, "metric": {"$ref": "#/$defs/id"},
+        "period": {"type": "string", "pattern": "^([0-9]{4}|[0-9]{4}-[0-9]{2}-[0-9]{2})$"},
+        "value": {"type": ["number", "null"]}, "status": {"$ref": "#/$defs/status"},
+        "source": {"$ref": "#/$defs/id"}, "source_version": {"type": "string", "minLength": 1},
+        "retrieved_at": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T.+(Z|[+-][0-9]{2}:[0-9]{2})$"},
+        "missing_reason": {"type": "string", "minLength": 1}, "method": {"type": "string", "minLength": 1},
+        "source_record": {"type": "string"}, "snapshot_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "input_observations": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "notes": {"type": "string"}
+      }
+    },
+    "source": {
+      "type": "object", "required": ["id", "title", "publisher", "url", "license", "access", "status"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "title": {"type": "string", "minLength": 1},
+        "publisher": {"type": "string", "minLength": 1}, "url": {"type": "string"},
+        "license": {"type": "string", "minLength": 1}, "terms_url": {"type": "string"},
+        "download_url": {"type": "string"}, "access": {"enum": ["download", "api", "manual", "link-only"]},
+        "status": {"enum": ["used", "candidate", "reference"]}, "usage_note": {"type": "string"}
+      }
+    },
+    "relation": {
+      "type": "object", "required": ["id", "from", "to", "predicate", "status", "source"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "from": {"$ref": "#/$defs/id"}, "to": {"$ref": "#/$defs/id"},
+        "predicate": {"type": "string", "minLength": 1}, "status": {"$ref": "#/$defs/status"},
+        "source": {"$ref": "#/$defs/id"}, "notes": {"type": "string"}
+      }
+    }
+  }
+}

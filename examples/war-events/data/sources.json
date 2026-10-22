@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ucdp-candidate-ged-2026-06",
+    "title": "UCDP Candidate Events Dataset, January-June 2026",
+    "publisher": "Uppsala Conflict Data Program",
+    "coverage": "Provisional event observations through June 2026",
+    "url": "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_01_26_06.csv",
+    "license": "CC BY 4.0",
+    "enclosure": "candidate-academic-event-dataset",
+    "retrieved": "2026-09-09",
+    "sha256": "68dd3d363b8edf4808bd6bf6f5d0412c3c722ffb1db367aeb8eff48bab80589a",
+    "refresh_status": "Official download unchanged; see dated refresh audit",
+    "access": "download",
+    "status": "used",
+    "usage_note": "candidate-academic-event-dataset",
+    "upstream_verified": "2026-10-19",
+    "projects": [
+      {
+        "id": "war-maps-project",
+        "role": "used",
+        "path": "data/SOURCES.json"
+      }
+    ],
+    "adapter": "war-maps",
+    "download_policy": "manual-review",
+    "download_url": "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_01_26_06.csv"
+  },
+  {
+    "id": "ucdp-candidate-ged-2026-08",
+    "title": "UCDP Candidate Events Dataset, August 2026",
+    "publisher": "Uppsala Conflict Data Program",
+    "coverage": "Provisional global event observations for August 2026, reconciled over the January-July releases by event ID",
+    "url": "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_0_8.csv",
+    "license": "CC BY 4.0",
+    "enclosure": "candidate-academic-event-dataset",
+    "retrieved": "2026-09-20",
+    "sha256": "2ad6e0b2bfdbaa31873716a3455096923a8539519d69d96aeeea2d0f44a34593",
+    "refresh_status": "Official download unchanged; see dated refresh audit",
+    "access": "download",
+    "status": "used",
+    "usage_note": "candidate-academic-event-dataset",
+    "upstream_verified": "2026-10-19",
+    "projects": [
+      {
+        "id": "war-maps-project",
+        "role": "used",
+        "path": "data/SOURCES.json"
+      }
+    ],
+    "adapter": "war-maps",
+    "download_policy": "manual-review",
+    "download_url": "https://ucdp.uu.se/downloads/candidateged/GEDEvent_v26_0_8.csv"
+  },
+  {
+    "id": "natural-earth-110m-geometry",
+    "title": "Natural Earth Admin 0 Countries, 1:110m",
+    "publisher": "Natural Earth",
+    "coverage": "Cartographic geometry only; never used as conflict evidence",
+    "url": "https://www.naturalearthdata.com/",
+    "license": "Public domain",
+    "enclosure": "map geometry",
+    "retrieved": "2026-08-28",
+    "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+    "refresh_status": "Verified unchanged",
+    "access": "download",
+    "status": "used",
+    "usage_note": "map geometry",
+    "upstream_verified": "2026-09-21",
+    "projects": [
+      {
+        "id": "war-maps-project",
+        "role": "used",
+        "path": "data/SOURCES.json"
+      }
+    ],
+    "adapter": "geojson",
+    "download_policy": "redistributable",
+    "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/"
+  }
+]

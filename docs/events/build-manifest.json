@@ -1,0 +1,27 @@
+{
+  "standard_version": "0.1.0",
+  "input_integrity": {
+    "atlas.json": "f623081a56ad2505849e38f1d5fb61ea71d29e13801239fdc7a49d832529bd32",
+    "data/entities.json": "05e56e9b31ed916c039071ba7080f900ab4d4f7daea9477227847842f5355f51",
+    "data/metrics.json": "37c85c75f2689753b4dd2ed74c603988b8e0dab664cd0ccfd3960464113a6067",
+    "data/observations.json": "3e0023f2574bfd7254f35ed57044063fe43502e22e6083b10b76ca5a61393e72",
+    "data/sources.json": "d533c7b1456505664d2bf6a31d8b6630ced61d9978973716ec9db81cec93e58c",
+    "data/relations.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/geometry.geojson": "66bd9fee6248b0f81e8384ae7516ad578023a91511138a7d5146d800d2ba45ee"
+  },
+  "outputs": {
+    "atlas.css": "a4b988720477027a07781082e1503ce825b739860e2271c91cb089ef7a302038",
+    "atlas.js": "4923dbd4cd91877139deed10dfc37eeb44f0a28c741832b90c46f432d82a2c6c",
+    "data.json": "0bf3d00907c5e2daf59010e53f9daf40e7ddd387d67104547d9c8ac42375897c",
+    "equal-area.svg": "b4fbf69ecb311daa8a0c09950600a930ab933c27c98e7e8980930272584e8a7a",
+    "equirectangular.svg": "d550147d33d8140740ecade1d3d63522de10d2253471b35c72d6196dc9e79f13",
+    "geometry.geojson": "66bd9fee6248b0f81e8384ae7516ad578023a91511138a7d5146d800d2ba45ee",
+    "icon-192.png": "dad29eaf3f8f53697c57898194ae21a63a00f7dc9f253daf412f31ed82d82003",
+    "icon-512.png": "edf69fbd81b40b8b61ee64b688c9918773469d037700c522d018251af1d7d61f",
+    "icon.svg": "08e6a41b4448dfc160aa2414878359c300bf55cb95e35ef0712fb845072ccef8",
+    "index.html": "6d969aadebe01990658a8ec92b1c0f666e738a9c348df74583c5563d40a4fefd",
+    "manifest.webmanifest": "27e89724593435202a809d74bdfca6259a2e04f8546a7cd744e9bf51c4510c18",
+    "observations.csv": "d5ee6a3edbb75f3dc7813d6761d108948af0bf316c4b914ba5e7bb7ba73a3a67",
+    "worker.js": "b38ffd80e1b68fbe41994c228ee847bcdd90401f71d99cfbea3b31d425e655ee"
+  }
+}

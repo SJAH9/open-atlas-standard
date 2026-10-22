@@ -1,0 +1,20 @@
+{
+  "standard_version": "0.1.0",
+  "id": "atlas-of-evidence",
+  "title": "An Atlas of Evidence",
+  "description": "One map is not one kind of knowledge. Explore population observations, published capital-exclusion models, and an explicitly unmeasured life-support field.",
+  "owner": "Sid J.A. Hubbard · Open Atlas Standard",
+  "license": "MIT for original project software and documentation; source-data rights remain with their publishers.",
+  "scope": "193 UN-member RTLDI records plus Natural Earth cartographic units; the map is not the country register.",
+  "method": "Three founding systems contribute reusable contracts, not interchangeable measurements. No upstream analytical model is recomputed.",
+  "publication_url": "https://sjah9.github.io/open-atlas-standard/demo/",
+  "geometry_source": "natural-earth-110m-geometry",
+  "files": {
+    "entities": "data/entities.json",
+    "metrics": "data/metrics.json",
+    "observations": "data/observations.json",
+    "sources": "data/sources.json",
+    "relations": "data/relations.json",
+    "geometry": "data/geometry.geojson"
+  }
+}

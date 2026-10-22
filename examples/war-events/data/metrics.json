@@ -1,0 +1,13 @@
+[
+  {
+    "id": "reported-deaths",
+    "title": "Individual provisional candidate estimate",
+    "unit": "reported deaths / source record",
+    "description": "Not a distinct incident count or an additive total. Low/high bounds, source reports, date precision, code status and rollup eligibility remain in each raw_event.",
+    "domain": [
+      0,
+      100
+    ],
+    "aggregation": "none"
+  }
+]

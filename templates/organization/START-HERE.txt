@@ -1,0 +1,6 @@
+1. Edit atlas.json with your name, license, purpose and scope.
+2. Define the metric and source rights in data/.
+3. Import observations with explicit units, years and provenance.
+4. Run open-atlas validate .
+5. Run open-atlas build . --output ../published --pdf
+Do not publish example labels as completed research. Blank data are intentional.

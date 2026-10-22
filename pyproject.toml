@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-atlas-kit"
+version = "0.1.0"
+description = "An evidence-preserving open atlas standard and static web/print reference implementation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Sid J.A. Hubbard"}]
+dependencies = ["jsonschema>=4.18,<5"]
+
+[project.optional-dependencies]
+print = ["reportlab>=4,<5", "pypdf>=5,<7"]
+
+[project.scripts]
+open-atlas = "open_atlas.cli:main"
+
+[tool.setuptools.package-data]
+open_atlas = ["schemas/*.json", "assets/*", "resources/*.json", "resources/*.geojson"]
+
+[tool.setuptools.packages.find]
+include = ["open_atlas*"]
